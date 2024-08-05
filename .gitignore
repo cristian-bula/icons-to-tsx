@@ -1,0 +1,5 @@
+node_modules/
+src/icons/optimized
+src/icons/components
+src/icons/raw/*
+!src/icons/raw/.gitkeep

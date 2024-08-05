@@ -1,0 +1,25 @@
+{
+  "name": "icons-to-tsx",
+  "version": "0.0.1",
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "node --loader ts-node/esm ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/rmfr": "^2.0.5",
+    "camelcase": "^8.0.0",
+    "svgo": "^3.3.2",
+    "rimraf": "^6.0.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@types/promise-fs": "^2.1.5",
+    "rmfr": "^2.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
